@@ -1,0 +1,9 @@
+<div class="card bg-light" style="width: 50%; margin:0 auto;">
+    <div class="card-body">
+        <h5 class="card-title">Click and Press</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Application on ROR.</h6>
+        <p class="card-text">This is a simple app to send message, store it encrypted in database and view the message.</p>
+        <%= link_to 'Send Message', new_message_path, class: "card-link" %>
+        <%= link_to 'List Messages', messages_path, class: "card-link" %>
+    </div>
+</div>

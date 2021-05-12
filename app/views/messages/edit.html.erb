@@ -1,0 +1,12 @@
+<div class="card bg-light text-center">
+    <div class="card-header">
+        Editing Message
+    </div>
+    <div class="card-body">
+        <%= render 'form', message: @message %>
+    </div>
+    <div class="card-footer text-muted">
+        <%= link_to 'Show', @message %> |
+        <%= link_to 'Back', messages_path %>
+    </div>
+</div>

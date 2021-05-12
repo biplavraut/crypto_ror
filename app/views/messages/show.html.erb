@@ -1,0 +1,26 @@
+<p id="notice"><%= notice %></p>
+<div class="card bg-light text-center">
+    <div class="card-header">
+        View Message
+    </div>
+    <div class="card-body">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><strong>Name:</strong>
+            <%= @message.name %>
+          </li>
+          <li class="list-group-item"><strong>Email:</strong>
+            <%= @message.email %>
+          </li>
+          <li class="list-group-item"><strong>Phone:</strong>
+            <%= @message.phone %>
+          </li>
+          <li class="list-group-item"><strong>Message:</strong>
+            <%= @message.message %>
+          </li>
+        </ul>
+    </div>
+    <div class="card-footer text-muted">
+      <%= link_to 'Edit', edit_message_path(@message) %> |
+      <%= link_to 'Back', messages_path %>
+    </div>
+</div>
