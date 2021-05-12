@@ -1,26 +1,6 @@
-# README
+# CRYPTOGRAPHY Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Click and Press
+Application on ROR.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-* Adding Lockbox gem
+This is a simple app to send message, store it encrypted in database and view the message.
